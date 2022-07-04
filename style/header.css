@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 150px;
+    /* position: relative; */
+  
+    z-index: 1;
+    
+  }
+  
+  .header__logo{
+    width: 100px;
+    margin-right: 40px;
+    z-index: 1;
+  }
+  
+  .header__home{
+    width: 15px;
+    margin-right: 30px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .header__mensagem{
+    width: 15px;
+    margin-top: 5px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .header__home:hover, .header__mensagem:hover{
+    transform: scale(1.2);
+  }
+  
+  .forma1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  /* Responsivo */
+  
+  @media screen and (max-width:1300px){
+    .forma1{
+      width: 500px;
+    }
+  }
+  
+  @media screen and (max-width:1100px){
+    header{
+      padding-top: 40px;
+      padding-left: 30px;
+    }
+    .header__logo{
+      width: 80px;
+    }
+    .forma1{
+      width: 400px;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    .header__logo{
+      display: none;
+    }
+  
+    .forma1{
+      width: 340px;
+    }
+  }

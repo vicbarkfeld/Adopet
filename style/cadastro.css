@@ -1,0 +1,93 @@
+.cadastro__descricao{
+    color: var(--azul);
+  }
+  
+  .cadastro__form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    z-index: 1;
+     
+  }
+  
+  .cadastro__form label{
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  .cadastro__form input{
+    border: none;
+    background-color: var(--cinza-claro-fundo);
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: var(--cinza-claro);
+    outline: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  }
+  
+  #form-nome, #form-email{
+    width: 500px;
+  }
+  
+  #form-senha, #form-confirma{
+    width: 360px;
+  }
+  
+  .cadastrar__btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--coral);
+    padding: 10px 0;
+    width: 150px;
+    text-align: center;
+    margin: 15px 0 100px 0;
+    border-radius: 6px;
+    transition: all .5s ease;
+  }
+  
+  .cadastrar__btn:hover{
+    transform: scale(1.04);
+  }
+  
+  .patas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+  }
+  
+  .cadastro__form2{
+    width: 110px;
+    position: absolute;
+    right: 0;
+  }
+  
+  .entrar__btn{
+    margin-bottom: 240px;
+  }
+  
+  @media screen and (max-width: 1000px){
+    .logo__azul{
+      width: 200px;
+      margin-top: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 800px){
+    #form-nome, #form-email, #form-senha, #form-confirma{
+      width: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 500px){
+    #form-nome, #form-email, #form-senha, #form-confirma{
+      width: 200px;
+    }
+    .patas{
+      width: 150px;
+    }
+  }
