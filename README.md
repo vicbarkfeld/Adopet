@@ -11,3 +11,6 @@ Esse é um projeto focado em layout responsivo, sendo recomendado a abordagem mo
 02 - Avançando no projeto: Vamos construir as telas de contato e de edição do usuário em todos os formatos. Também será construído o background das telas que é constituído de diferentes imagens.
 
 03 & 04 - Telas dinâmicas: Agora será a hora de tornar essas páginas estáticas (feitas somente com HTML e CSS) em páginas dinâmicas. Também vamos fazer as validações dos formulários e permitir o cadastro e edição de usuário.
+
+
+![image](https://user-images.githubusercontent.com/82127044/177815806-ac788a9f-f718-440d-bb45-29dd6594816d.png)
